@@ -1,0 +1,435 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+h1, h2, h3, p {
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.btn:hover {
+    color: #000;
+}
+
+p {
+    color: gray;
+}
+
+.bai-jamjuree-regular {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.bai-jamjuree-semibold {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+
+
+.hero{
+    background-image: url(/images/bg-header-desktop.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.hero-content {
+    padding-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {  
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+}
+
+.hero p {
+    width: 65%;
+    font-weight: 400;
+    color: gray;
+    margin: 0 auto 50px;
+}
+
+#btn {
+    display: flex;
+    column-gap: 15px;
+}
+
+.btn {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: hsl(210, 10%, 33%);
+    box-shadow: inset(150 250 -150 gray);
+    color: #fff;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+
+.btn-1 {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.btn-2 {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.main-info {
+    text-align: center;
+}
+
+.main-info p{
+    width: 46%;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    color: gray;
+    margin: 0 auto 50px;
+}
+
+.main-content {
+    height: 100%;
+}
+
+.main-content img {
+    float:left;
+    width:50%;
+    position:relative;
+    margin-left:-2%;
+}
+
+.main-content .cont{
+    margin-left: 525px;
+    width: 32%;
+}
+
+.items {
+    padding-top: 50px;
+    margin-left: 200px;
+}
+
+.items p {
+    line-height: 1.5em;
+}
+
+.sec-content {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.sec-content .info {
+    width: 50%;
+    margin: 20px auto 50px;
+}
+
+.sec-content img {
+    width: 800px;
+}
+
+.last-content {
+    margin: 50px auto;
+}
+.last-content .info {
+    text-align: center;
+}
+
+.last-content h2 {
+    letter-spacing: .05em;
+    font-size: 28px;
+}
+
+.all-offers {
+    display: flex;
+    width: 80vw;
+    margin: 30px auto;
+    font-family: "Bai Jamjuree", sans-serif;
+
+}
+
+.all-offers .blacklist img{
+    width: 35px;
+}
+
+.offers {
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.last-cont {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.last-cont p {
+    width: 48%;
+    margin: 0 auto;
+}
+
+.last-cont #btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+footer {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    height: 100px;
+}
+
+footer .logo img {
+    width: 40px;
+}
+
+.list {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.list p {
+    padding: 0 20px;
+}
+
+.social img {
+    width: 15px;
+    padding: 0 5px;
+}
+
+.list a {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 375px){
+    .body {
+        /* padding: 0 10px; */
+    }
+
+    .logo {
+        margin-bottom: 100px;
+    }
+
+    .hero{
+        background-image: url(/images/bg-header-mobile.png);  
+    }
+
+    .hero h1 {
+        width: 300px;
+        margin: 20px auto;
+        font-size: 30px;
+    }
+    
+    .hero p {
+        text-align: center;
+        width: 280px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    #btn {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .btn {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .main-info {
+        text-align: center;
+    }
+
+    .main h2 {
+        font-size: 30px;
+        margin: 0 auto;
+    }
+    
+    .main-info p{
+        width: 300px;
+        line-height: 25px;
+    }
+    
+    .main-content {
+        text-align: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main-content img {
+        margin: 20px auto 0;
+        width: 300px;
+    }
+
+    .main-content h3 {
+        font-size: 25px;
+    }
+    
+    .main-content .cont{
+        margin: 0 auto;
+        width: 85%;
+        margin-top: 30px;
+    } 
+
+    .items {
+        padding-top: 10px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec-content {
+        margin-top: 200px;
+    }
+
+    .sec-content .info {
+        width: 300px;
+    }
+
+    .sec-content .info p {
+        line-height: 25px;
+    }
+
+    .sec-content img {
+        width: 300px;
+    }
+
+    .last-content {
+        margin: 100px auto 50px;
+    }
+
+    .last-content .info {
+        width: 80%;
+        margin: 20px auto 50px;
+    }
+
+    .last-content .info p{
+        line-height: 25px;
+    }
+
+
+    .all-offers {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .offers {
+        margin: 0 auto 40px;
+        width: 100%;
+    }
+
+    .offers h3 {
+        font-size: 25px;
+    }
+
+    .all-offers img {
+        margin: 15px auto;
+    }
+
+    .all-offers p {
+        width: 100%;
+        line-height: 25px;
+    }
+
+    .sponsors {
+        display: flex;
+        gap: 80px;
+        flex-direction: column;
+        align-items: center;
+        padding: 80px 0;
+    }
+
+    .sponsors img {
+        width: 100px;
+    }
+
+
+    .last-cont {
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .last-cont h2 {
+        font-size: 30px;
+    }
+    
+    .last-cont p {
+        width: 300px;
+        margin: 0 auto;
+        line-height: 25px;
+    }
+    
+    .last-cont #btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    
+
+    footer .logo img {
+        width: 35px;
+    }
+
+    footer {
+        margin: 100px auto 0;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+
+    }
+    
+    .list {
+        margin: -150px auto -50px;
+        
+    }
+    
+    .social img {
+        width: 15px;
+        padding: 0 15px;
+        margin:  0 auto;
+    }
+    
+    .list a {
+        color: #0e0e0e;
+        text-decoration: underline;
+    }
+    
+
+}
+
