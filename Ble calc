@@ -1,0 +1,73 @@
+
+// 
+// 
+// 
+// package main
+// import (
+// 	"fmt"
+// 	"strconv"
+// )
+
+// func main(){
+// 	for {
+// 	var a,b string
+// 	var x, y int
+// 	var op string
+// 	var err error
+// fmt.Print("Enter the first number: ")
+// start:
+// fmt.Scanln(&a)
+// val1, err := strconv.Atoi(a)
+// if err == nil {
+// 	x = val1
+// 	fmt.Print("Enter the Second number: ")
+// 	start1:
+// 	fmt.Scanln(&b)
+// 	val2, err := strconv.Atoi(b)
+// 	if err == nil {
+// 		y = val2
+// 		fmt.Print("Input an operation: ")
+// 		start2:
+// 		fmt.Scanln(&op)
+// 		if op == "+" || op == "-" || op == "*" || op == "/" || op == "help" || op == "quit" {
+// 			op = op
+// 		} else {
+// 			fmt.Print("Invalid operation, try again:")
+// 			goto start2
+// 		}
+// 	} else {
+// 		fmt.Print("Invalid Input try again: ")
+// 		goto start1
+// 	}
+// } else {
+// 	fmt.Print("Invalid input, try again: ")
+// 	goto start
+// }
+
+
+// switch op {
+// case "+" :
+// 	fmt.Println(x, "+", y , "=", x + y)
+
+// // case "-" :
+// // 	fmt.Println(a, "-", b , "=", a - b)
+
+// // case "*":
+// // 		fmt.Println(a, "*", b , "=", a * b)
+// // case "/":
+// // 		if b != 0{
+// // 		fmt.Println(a, "/", b , "=", a / b)
+// // 		}else {
+// // 			fmt.Println("division by zero is not allowed")
+// // 		}
+// case "help":
+// 	fmt.Println()
+// 	continue
+// case "quit":
+// 	fmt.Println("next time")
+// default:
+// 		fmt.Println("invalid operator")
+
+// 		}
+// 	}
+// }
